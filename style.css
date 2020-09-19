@@ -1,0 +1,8 @@
+.bg-color-primary {
+    background: rgb(0, 123, 255);
+    background: linear-gradient(180deg, rgba(0, 123, 255, 1) 30%, rgba(255, 255, 255, 0) 30%);
+}
+.bg-color-light {
+    background: rgb(248,249,250);
+    background: linear-gradient(365deg, rgba(248,249,250,1) 45%, rgba(255,255,255,0) 45%);
+}

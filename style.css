@@ -1,3 +1,4 @@
+/* Stylesheet by https://anupammondal.in */
 .bg-color-primary {
     background: rgb(0, 123, 255);
     background: linear-gradient(180deg, rgba(0, 123, 255, 1) 30%, rgba(255, 255, 255, 0) 30%);
@@ -5,4 +6,12 @@
 .bg-color-light {
     background: rgb(248,249,250);
     background: linear-gradient(365deg, rgba(248,249,250,1) 45%, rgba(255,255,255,0) 45%);
+}
+.header-bg {
+    background-image: url('https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+}
+.overlap-style {
+    margin-top: -120px;
 }

@@ -1,4 +1,7 @@
 /* Stylesheet by https://anupammondal.in */
+.text-shadow {
+    text-shadow: #000000 0px 0px 5px;
+}
 .bg-transparent {
     background-color: #000000cc!important;
 }
@@ -20,6 +23,11 @@
     background-position: center;
     background-size: cover;
 }
+.cdm-header-bg {
+    background-image: url('https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+}
 .blog-header-bg {
     background-image: url('https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     background-position: center;
@@ -32,6 +40,11 @@
 }
 .sas-header-bg {
     background-image: url('https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+.teacher-reg-header-bg {
+    background-image: url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-position: center;
     background-size: cover;
 }

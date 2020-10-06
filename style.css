@@ -15,3 +15,8 @@
 .overlap-style {
     margin-top: -120px;
 }
+#card-bg-medicine {
+    background-image: url('https://images.pexels.com/photos/3652097/pexels-photo-3652097.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400');
+    background-position: center;
+    background-size: cover;
+}

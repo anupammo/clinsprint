@@ -1,7 +1,10 @@
 /* Stylesheet by https://anupammondal.in */
+.bg-transparent {
+    background-color: #000000cc!important;
+}
 .bg-color-primary {
-    background: rgb(0, 123, 255);
-    background: linear-gradient(180deg, rgba(0, 123, 255, 1) 30%, rgba(255, 255, 255, 0) 30%);
+    background: rgb(0, 0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0) 30%);
 }
 .bg-color-light {
     background: rgb(248,249,250);
@@ -17,6 +20,11 @@
 }
 #card-bg-medicine {
     background-image: url('https://images.pexels.com/photos/3652097/pexels-photo-3652097.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400');
+    background-position: center;
+    background-size: cover;
+}
+#home-header-bg {
+    background-image: url('https://images.pexels.com/photos/2277784/pexels-photo-2277784.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     background-position: center;
     background-size: cover;
 }

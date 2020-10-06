@@ -15,6 +15,26 @@
     background-position: center;
     background-size: cover;
 }
+.contact-header-bg {
+    background-image: url('https://images.pexels.com/photos/263564/pexels-photo-263564.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+.blog-header-bg {
+    background-image: url('https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+.we-header-bg {
+    background-image: url('https://images.pexels.com/photos/2255441/pexels-photo-2255441.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
+.sas-header-bg {
+    background-image: url('https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+}
 .overlap-style {
     margin-top: -120px;
 }

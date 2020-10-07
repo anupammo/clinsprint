@@ -1,5 +1,19 @@
 /* Stylesheet by https://anupammondal.in */
-
+/* 
+Color gradient pink  
+#993399 and #ff3399 
+-------------------
+Color gradient blue 
+#66ffff and #0066ff 
+*/
+.bg-pink {
+    background: rgb(153,51,153);
+    background: linear-gradient(0deg, rgba(153,51,153,1) 0%, rgba(255,51,153,1) 100%);
+}
+.bg-blue {
+    background: rgb(102,255,255);
+    background: linear-gradient(0deg, rgba(102,255,255,1) 0%, rgba(0,102,255,1) 100%);
+}
 .text-shadow {
     text-shadow: #000000 0px 0px 5px;
 }
@@ -78,6 +92,16 @@
     background-repeat: no-repeat;
 }
 
+.header-gradient-bg-right {
+    background: rgb(37, 39, 40);
+    background: linear-gradient(70deg, rgba(37, 39, 40, 1) 10%, rgba(255, 255, 255, 0) 20%);
+}
+.bg-test {
+    background-image: url('https://image.freepik.com/free-vector/medical-science-banner-blue-color-shade_1017-24286.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 @media screen and (min-width: 687px) {
     .header-gradient-bg-left {
         width: 50%;
@@ -91,9 +115,4 @@
         background-position: right;
         background-repeat: no-repeat;
     }
-}
-
-.header-gradient-bg-right {
-    background: rgb(37, 39, 40);
-    background: linear-gradient(70deg, rgba(37, 39, 40, 1) 10%, rgba(255, 255, 255, 0) 20%);
 }

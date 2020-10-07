@@ -14,6 +14,9 @@ Color gradient blue
     background: rgb(102,255,255);
     background: linear-gradient(0deg, rgba(102,255,255,1) 0%, rgba(0,102,255,1) 100%);
 }
+.bg-1 {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
 .text-shadow {
     text-shadow: #000000 0px 0px 5px;
 }

@@ -8,18 +8,14 @@ Color gradient blue
 #66ffff and #0066ff 
 */
 
-.bg-pink {
+.bg-1 {
     background: rgb(153, 51, 153);
     background: linear-gradient(0deg, rgba(153, 51, 153, 1) 0%, rgba(255, 51, 153, 1) 100%);
 }
 
-.bg-blue {
+.bg-6 {
     background: rgb(102, 255, 255);
     background: linear-gradient(0deg, rgba(102, 255, 255, 1) 0%, rgba(0, 102, 255, 1) 100%);
-}
-
-.bg-1 {
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 .bg-2 {
@@ -36,10 +32,6 @@ Color gradient blue
 
 .bg-5 {
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-}
-
-.bg-6 {
-    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
 
 .text-shadow {
@@ -123,13 +115,6 @@ Color gradient blue
 .header-gradient-bg-right {
     background: rgb(37, 39, 40);
     background: linear-gradient(70deg, rgba(37, 39, 40, 1) 10%, rgba(255, 255, 255, 0) 20%);
-}
-
-.bg-test {
-    background-image: url('https://image.freepik.com/free-vector/medical-science-banner-blue-color-shade_1017-24286.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .parallax {

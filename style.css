@@ -7,7 +7,12 @@ Color gradient pink
 Color gradient blue 
 #66ffff and #0066ff 
 */
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Trirong', serif;
+}
+p, a {
+    font-family: 'Merriweather', serif;
+}
 .bg-1 {
     background: rgb(153, 51, 153);
     background: linear-gradient(0deg, rgba(153, 51, 153, 1) 0%, rgba(255, 51, 153, 1) 100%);

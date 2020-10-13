@@ -7,18 +7,38 @@ Color gradient pink
 Color gradient blue 
 #66ffff and #0066ff 
 */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Trirong', serif;
 }
-p, a {
+
+p, a, li {
     font-family: 'Merriweather', serif;
+    font-weight: 100;
 }
+
 p {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
+    font-weight: 100;
 }
+
 h1, h2 {
     color: #4632da;
 }
+
+.txt-shadow {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    font-size: 3.8rem;
+    color: #e0e0e0;
+}
+
+hr.heading-bottom-line {
+    width: 20%;
+    border-bottom: #000 solid 2px;
+}
+
 .bg-1 {
     background: rgb(153, 51, 153);
     background: linear-gradient(0deg, rgba(153, 51, 153, 1) 0%, rgba(255, 51, 153, 1) 100%);
@@ -134,24 +154,27 @@ h1, h2 {
 
 .parallax {
     background-image: url('https://image.freepik.com/free-vector/medical-science-banner-blue-color-shade_1017-24286.jpg');
-    height: 520px;
+    height: 620px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 img.img-shape-1 {
     border-radius: 20% 20% 20% 60%;
 }
+
 img.img-shape-2 {
     border-radius: 20% 40% 20% 20%;
 }
+
 img.img-shape-3 {
     border-radius: 15% 15% 45% 15%;
 }
 
 @media screen and (min-width: 687px) {
-    .header-gradient-bg-left {
+    /* .header-gradient-bg-left {
         width: 50%;
         background: rgb(37, 39, 40);
     }
@@ -161,8 +184,8 @@ img.img-shape-3 {
         background-size: contain;
         background-position: right;
         background-repeat: no-repeat;
-    }
+    } */
     .parallax {
-        height: 350px;
+        height: 380px;
     }
 }

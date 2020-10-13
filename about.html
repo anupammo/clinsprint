@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Trirong:wght@100;300;500;600;900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
   <title>About ClinSprint</title>
@@ -19,11 +23,10 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="index.html">
         <img src="content/photo/clinsprint-logo2.png" alt="" loading="lazy" class="py-0">
       </a>
-      <!-- <a class="navbar-brand" href="home.html">ClinSprint</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,6 +40,18 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">About ClinsPrint</a>
+              <a class="dropdown-item" href="mission.html">Mission & Vission</a>
+              <a class="dropdown-item" href="testimonial.html">Testimonials</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Training Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,42 +61,27 @@
               <a class="dropdown-item" href="course4.html">ICH-GCP</a>
               <a class="dropdown-item" href="course5.html">Clinical SAS</a>
               <a class="dropdown-item" href="course6.html">Regulatory Affairs</a>
-              <a class="dropdown-item" href="course7.html">Workshops And Events</a>
-            </div>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li> -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              About Us
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="about.html">About ClinsPrint</a>
-              <a class="dropdown-item" href="mission.html">Mission & Vission</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="course7.html">Workshops And Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ's</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="register.html">Registration</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-          <!-- <li class="nav-item">
-          <a class="nav-link" href="faq.html">FAQ</a>
-        </li>
-        <div class="form-inline my-2 my-lg-0">
-          <a class="card-link mx-3" href="">Email</a>
-          <a class="card-link mx-3" href="">Phone</a>
-        </div> -->
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="card-link mx-3 text-white" href="mailto:info@clinsprint.com" title="info@clinsprint.com">
+            <a class="card-link mx-3 text-muted" href="mailto:info@clinsprint.com" title="info@clinsprint.com">
               <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope-open" fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
@@ -91,7 +91,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="card-link mx-3 text-white" href="tel:919999900000" title="+91-9999900000">
+            <a class="card-link mx-3 text-muted" href="tel:919999900000" title="+91-9999900000">
               <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-outbound" fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
@@ -124,8 +124,12 @@
   <section>
     <div class="container mb-5">
       <div class="row">
+        <div class="col-12 px-0">
+          <h2 class="text-center txt-shadow display-3 mb-5">About ClinSprint</h2>
+          <h2 class="text-center display-4 mt-4">About ClinSprint</h2>
+          <hr class="border-primary heading-bottom-line mb-5">
+        </div>
         <div class="col-12">
-          <h2 class="text-center display-4 mb-5">About ClinSprint</h2>
           <p class="text-justify">
             Just over a year ego, we became fascinated by the idea of training services which adds tremondous value to
             our people in the field of Clinical Research and that's exactly what we are trying to do and connect with
@@ -152,7 +156,7 @@
         </div>
         <div class="col-12">
           <div class="mt-5">
-            <a href="about.html" class="btn btn-outline-primary rounded-pill m-2 px-5">Take A Tour</a>
+            <a href="about.html" class="btn btn-outline-primary rounded-pill m-2 px-5">Take a Tour</a>
           </div>
         </div>
       </div>

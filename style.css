@@ -69,12 +69,36 @@ hr.heading-bottom-line {
     background-image: linear-gradient(300deg, #00c6fb 20%, #005bea 80%);
 }
 
+.dual-bg-2 {
+    background-image: url('https://cdn.pixabay.com/photo/2015/06/16/09/39/grid-811032_960_720.jpg');
+    background-size: cover;
+}
+
+/* body.body-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/30/19/56/gradient-1291455_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
 .text-shadow {
     text-shadow: #000000 0px 0px 5px;
 }
 
-.bg-transparent {
-    background-color: #000000cc!important;
+div.bg-transparent {
+    transition: 0.3s;
+}
+
+.card-hover-bg:hover div.bg-transparent1 {
+    background-color: #088b08de!important;
+}
+
+.card-hover-bg:hover div.bg-transparent2 {
+    background-color: #005beade!important;
+}
+
+.bg-transparent1, .bg-transparent2 {
+    background-color: #00000080!important;
 }
 
 .bg-color-primary {
@@ -171,6 +195,10 @@ img.img-shape-2 {
 
 img.img-shape-3 {
     border-radius: 15% 15% 45% 15%;
+}
+
+ul.down-nav li {
+    list-style: none !important;
 }
 
 @media screen and (min-width: 687px) {

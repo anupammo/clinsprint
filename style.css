@@ -7,7 +7,9 @@ Color gradient pink
 Color gradient blue 
 #66ffff and #0066ff 
 */
-
+.card-title.border-left.h4 {
+    border-left-width: 3px !important;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Trirong', serif;
 }
@@ -99,6 +101,7 @@ div.bg-transparent {
 
 .bg-transparent1, .bg-transparent2 {
     background-color: #00000080!important;
+    transition: .4s;
 }
 
 .bg-color-primary {

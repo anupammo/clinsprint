@@ -180,12 +180,16 @@ div.bg-transparent {
 }
 
 .parallax {
-    background-image: url('https://image.freepik.com/free-vector/medical-science-banner-blue-color-shade_1017-24286.jpg');
-    height: 620px;
+    background-image: url('https://images.pexels.com/photos/999267/pexels-photo-999267.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900');
+    height: 564px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bg-transparent3 {
+    background-color: #00000080!important;
 }
 
 img.img-shape-1 {
@@ -233,9 +237,9 @@ h5.jello-horizontal:hover svg {
 }
 
 @media screen and (min-width: 687px) {
-    .parallax {
-        height: 380px;
-    }
+    /* .parallax {
+        height: 500px;
+    } */
 }
 
 /* ----------------------------------------------

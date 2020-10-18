@@ -166,13 +166,13 @@ div.bg-transparent {
     background-size: cover;
 }
 
-#home-header-bg {
+/* #home-header-bg {
     background-color: rgb(37, 39, 40);
     background-image: url('https://images.pexels.com/photos/2277784/pexels-photo-2277784.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-}
+} */
 
 .header-gradient-bg-right {
     background: rgb(37, 39, 40);

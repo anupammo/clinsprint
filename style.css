@@ -181,23 +181,31 @@ div.bg-transparent {
 
 .parallax {
     background-image: url('https://images.pexels.com/photos/999267/pexels-photo-999267.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900');
-    /* height: 564px; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.footer-bg1 {
-    background-image: url('https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900');
+.parallax-events {
+    background-image: url('https://cdn.pixabay.com/photo/2016/05/30/18/27/workshop-1425446_960_720.jpg');
+    height: 250px;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
-.footer-bg2 {
+/* .footer-bg1 {
+    background-image: url('https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.footer-bg {
     background-image: url('https://images.unsplash.com/photo-1540630271798-71a62dfed2a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=791&q=80');
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -70,12 +70,41 @@ hr.heading-bottom-line {
 .dual-bg-1 {
     background-image: linear-gradient(300deg, #00c6fb 20%, #005bea 80%);
 }
-
-.dual-bg-2 {
-    background-image: url('https://cdn.pixabay.com/photo/2015/06/16/09/39/grid-811032_960_720.jpg');
+.about-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2018/11/30/09/40/business-card-3847385_960_720.jpg');
     background-size: cover;
+    background-position: center;
 }
-
+.register-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/14/11/30/block-chain-2850276_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contact-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.faq-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/14/08/41/questions-1328466_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.events-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/14/11/30/block-chain-2850276_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.testimonials-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/26/09/56/thank-you-3040081_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ich-gcp-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2019/06/03/17/38/office-4249381_960_720.jpg');
+    background-size: cover;
+    background-position: top;
+}
 /* body.body-bg {
     background-image: url('https://cdn.pixabay.com/photo/2016/03/30/19/56/gradient-1291455_960_720.jpg');
     background-size: cover;

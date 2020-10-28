@@ -7,6 +7,9 @@ Color gradient pink
 Color gradient blue 
 #66ffff and #0066ff 
 */
+.navbar-brand {
+    margin-top: -42px;
+}
 .nav-bg {
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(40,167,69,1) 35%, rgba(40,167,69,1) 100%);
@@ -91,6 +94,11 @@ hr.heading-bottom-line {
 }
 .faq-bg {
     background-image: url('https://cdn.pixabay.com/photo/2016/04/14/08/41/questions-1328466_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.blog-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2014/08/27/07/53/blog-428950_960_720.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -296,6 +304,12 @@ h5.bounce-top:hover svg {
 h5.jello-horizontal:hover svg {
     -webkit-animation: jello-horizontal 0.9s both;
     animation: jello-horizontal 0.9s both;
+}
+@media (max-width: 575px) {
+    .nav-bg {
+        background: #28a745;
+        /* background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(40,167,69,1) 35%, rgba(40,167,69,1) 100%); */
+    }
 }
 
 @media screen and (min-width: 687px) {

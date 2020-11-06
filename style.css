@@ -98,7 +98,8 @@ hr.heading-bottom-line {
     background-position: center;
 }
 .faq-bg {
-    background-image: url('https://cdn.pixabay.com/photo/2016/04/14/08/41/questions-1328466_960_720.jpg');
+    /* background-image: url('https://cdn.pixabay.com/photo/2016/04/14/08/41/questions-1328466_960_720.jpg'); */
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/18/15/25/faq-2655310_960_720.jpg');
     background-size: cover;
     background-position: center;
 }

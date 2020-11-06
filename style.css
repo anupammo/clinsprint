@@ -275,6 +275,14 @@ div.bg-transparent {
     background-size: cover;
 }
 
+.parallax-1 {
+    background-image: url('https://images.pexels.com/photos/4173356/pexels-photo-4173356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=900');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .parallax-events {
     background-image: url('https://cdn.pixabay.com/photo/2016/05/30/18/27/workshop-1425446_960_720.jpg');
     height: 250px;
